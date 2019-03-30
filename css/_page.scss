@@ -1,0 +1,54 @@
+.container {
+  margin: 0 auto;
+  width: 600px;
+  background: #fff;
+  text-align: center;
+}
+
+.header {
+  background: url(../img/head.png);
+  background-position: top center;
+  height: 290px;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background: url(../img/footer.png);
+  background-position: bottom center;
+  height: 385px;
+  background-repeat: no-repeat;
+  padding-top: 90px;
+  h2 {
+    margin-bottom: 22px;
+  }
+}
+
+.social {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+
+  li {
+    padding: 0;
+    margin: 0;
+    display: table-cell;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+.col {
+  margin: 40px auto;
+  width: 360px;
+}
+
+.copy-link {
+  height: 65px;
+  width: 412px;
+  background: #f1f4f7;
+  line-height: 65px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
